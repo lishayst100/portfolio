@@ -1,0 +1,44 @@
+.hero{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 50%;
+}
+
+.hero-container{
+    height: 100vh;
+}
+
+
+.title-hero{
+    font-size: 4em;
+}
+
+
+
+.icons{
+    font-size: 2em;
+    transition: 0.3s ease-in-out;
+    color: #000000;
+    cursor: pointer;
+    &:hover{
+        color: #147efb;
+    }
+}
+
+.footer-links.icons{
+    color: rgb(37, 68, 95);
+}
+
+
+@media (max-width:500px){
+    .title-hero{
+        font-size: 2em;
+    }
+    .hero-padding{
+        padding-top: 100px;
+        
+    }
+    .hero-container {
+        height: auto;
+    }
+}

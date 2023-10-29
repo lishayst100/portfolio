@@ -1,0 +1,27 @@
+.contact-icon{
+    font-size: 3em;
+    color: #147efb;
+    border-radius: 50% 50%;
+    box-shadow: 1px 1px 1px 1px ;
+    padding: 10px;
+    transition: .3s;
+    &:hover{
+        color: #000000;
+    }
+
+}
+
+
+.font-bolder{
+    font-weight: 700;
+}
+
+.details{
+    color: #888;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    &:hover{
+        color: #147efb;
+    }
+    cursor: pointer;
+}

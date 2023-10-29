@@ -1,0 +1,62 @@
+.img-project{
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.title-project{
+    font-size: 1.3em;
+    font-weight: 700;
+
+
+}
+
+
+.framework{
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover{
+        color: #FFFfff;
+        background-color: #000000;
+        transform: translateY(-20px);
+    }
+}
+
+
+.links{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #000000;
+    transition: 0.3s;
+    &:hover{
+        color: #147efb;
+    }
+}
+
+.container-60{
+    width: 60%;
+    background-color: white;
+}
+
+.blue{
+    color: #147efb;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-weight: 600;
+    font-size: 1.3em;
+
+}
+
+
+
+@media screen and (max-width:700px) {
+    .container-60{
+        width: 100%;
+    }
+}
