@@ -5,12 +5,17 @@ import Framwork from './Framwork';
 import Title from './Title';
 import Image from './Image';
 import './Project.scss'
-import { NavLink } from 'react-router-dom';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
 
 
 
 const SingleProject = ({date,desc,framework,git,image,link,title,index}:Project) => {
-
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  });
 
   const linkto = (link:string) => {
       document.location = link
@@ -18,7 +23,9 @@ const SingleProject = ({date,desc,framework,git,image,link,title,index}:Project)
  
   return (
     <div
-      className={`container-60 mx-auto d-flex flex-column-reverse justify-content-center ${
+      data-aos={index! % 2 === 0 ? 'flip-left' : 'flip-right'}
+      
+      className={`cardObserver  container-60 mx-auto d-flex flex-column-reverse justify-content-center ${
         index! % 2 === 0 ? "flex-lg-row" : "flex-lg-row-reverse"
       } gap-2 shadow p-4 rounded-3 `}
     >

@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/navbar/Nav';
 import Footer from './components/footer/Footer';
+import Nav from './components/footer/navbar/Nav';
 
 
 
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <BrowserRouter>
-      <Navbar />
+      <Navbar/>
       <App />
       <Footer/>
   </BrowserRouter>

@@ -37,11 +37,11 @@ export const projects: Project[] = [
     title: "PS e-commerce store",
     date: "April 2023",
     desc: "An ecommerce store that allows the user to add products to the cart, buy them and see them after placing an order. The store also has a user system and an admin who can perform crud actions and see what orders have been placed.",
-    git: "https://github.com/lishayst100/final-project-frontend",
+    git: "https://github.com/lishayst100/ps-strore",
     link: "https://ps-store-project.vercel.app/",
     framework: ["React", "SCSS", "NodeJs", "Redux", "MongoDb"],
     image:
-      "https://res.cloudinary.com/dabvgy03h/image/upload/v1695820172/samples/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-09-26_145416_g9jdmk.png",
+      "https://res.cloudinary.com/dabvgy03h/image/upload/v1698931357/samples/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-02_152013_mf2tdl.png",
   },
 
   {

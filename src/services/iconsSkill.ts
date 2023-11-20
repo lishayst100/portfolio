@@ -12,6 +12,12 @@ export const icons = [
     image1: "https://skillicons.dev/icons?i=ts",
   },
   {
+    skill1: "next",
+    image: "https://skillicons.dev/icons?i=next",
+    skill2: "node",
+    image1: "https://skillicons.dev/icons?i=nodejs",
+  },
+  {
     skill1: "scss",
     image: "https://skillicons.dev/icons?i=scss",
     skill2: "tailwind",
@@ -23,12 +29,7 @@ export const icons = [
     skill2: "redux",
     image1: "https://skillicons.dev/icons?i=redux",
   },
-  {
-    skill1: "next",
-    image: "https://skillicons.dev/icons?i=next",
-    skill2: "node",
-    image1: "https://skillicons.dev/icons?i=nodejs",
-  },
+
   {
     skill1: "mongo",
     image: "https://skillicons.dev/icons?i=mongo",
@@ -36,3 +37,5 @@ export const icons = [
     image1: "https://skillicons.dev/icons?i=firebase",
   },
 ];
+
+

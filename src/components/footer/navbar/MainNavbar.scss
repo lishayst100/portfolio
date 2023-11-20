@@ -1,15 +1,17 @@
 :root {
-    --mainColor: #ffffff;
-    --white: #000000;
+    --mainColor: #27004b;
+    --white: #ffffff;
     --secondaryColor: #147efb;
-    --textColor: #000000;
+    --textColor: #ffffff;
 }
 
 .link{
     text-decoration: none;
     font-size: 1.3rem;  
-    color: #000000;
-    font-weight: 500;
+    color:var(--textColor);
+    font-weight: 700;
+   
+
 }
 
 .navbar-bgc{
@@ -38,6 +40,7 @@ nav .logo-div {
 }
 
 .navbar-logo{
+    
     width: 100%;
 }
 
@@ -61,11 +64,16 @@ nav a {
     margin: 0 1rem;
     color: var(--textColor);
     text-decoration: none;
-    transition: 0.3s ease-in-out;
+    transition: 1.3s ease-in-out;
 }
 
-nav a:hover {
-    color: var(--secondaryColor);
+nav a {
+    transition: 1.3s ease-in-out;
+    &:hover {
+            background: linear-gradient(25deg, #2600fc, #ff00ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 }
 
 header .nav-btn {
@@ -111,7 +119,6 @@ nav {
         gap: 1.5rem;
         background-color: var(--mainColor);
         transition: 1s;
-        z-index: 10;
     }
 
     header .responsive_nav {
