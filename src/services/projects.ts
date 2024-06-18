@@ -28,7 +28,7 @@ export const projects: Project[] = [
     date: "August 2023",
     desc: "A movie and tv website is an online platform that allows users to search for movies and tv. The website provides an interface for searching,filtering,sorting and get details about every movie or tv show.",
     git: "https://github.com/lishayst100/movies-and-tv-project",
-    link: "https://movies-lishayst100.vercel.app/",
+    link: "https://movies-lishayst100-lishayst100s-projects.vercel.app/",
     framework: ["React", "SCSS", "Rest API"],
     image:
       "https://res.cloudinary.com/dabvgy03h/image/upload/v1695820181/samples/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-09-26_143650_wcykhz.png",
