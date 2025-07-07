@@ -56,7 +56,7 @@ export const projects: Project[] = [
 
   {
     title: "Corporate website",
-    date: "March",
+    date: "March 2023",
     desc: "An Corporate website for a real business where the details about the business are displayed and a gallery that shows the works of the business",
     git: "",
     link: "https://lironshemtov.com/",
