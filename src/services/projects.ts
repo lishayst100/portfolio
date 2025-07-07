@@ -3,6 +3,16 @@ import { Project } from "../types/types";
 
 export const projects: Project[] = [
   {
+    title: "SEQUENCE",
+    date: "February 2025",
+    desc: "Sequence Studio is a creative boutique studio providing creative solutions and productions services including design ,animation & visual effects for varius media forms - television, internet and film.",
+    git: "https://github.com/lishayst100/car-rental-project",
+    link: "https://sequence.co.il",
+    framework: ["ReactJs", "SCSS", "MongoDb", "NodeJs"],
+    image:
+      "https://res.cloudinary.com/dlkhrcm4x/image/upload/v1751885182/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2025-07-07_134606_gnptee.png",
+  },
+  {
     title: "CAR RENTAL",
     date: "June 2023",
     desc: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
@@ -49,7 +59,7 @@ export const projects: Project[] = [
     date: "March 2023",
     desc: "An Corporate website for a real business where the details about the business are displayed and a gallery that shows the works of the business",
     git: "",
-    link: "https://shemtovilan.co.il/",
+    link: "https://lironshemtov.com/",
     framework: ["wordpress", "domain management"],
     image:
       "https://res.cloudinary.com/dabvgy03h/image/upload/v1695820174/samples/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-09-27_115644_vejls3.png",

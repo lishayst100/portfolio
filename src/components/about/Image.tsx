@@ -13,7 +13,7 @@ const Image = () => {
     loading='eager'
       data-aos="fade-up"
       data-aos-delay="500"
-      src="https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp"
+      src="https://res.cloudinary.com/dlkhrcm4x/image/upload/v1751884517/workspace-1280538_1280_ra71ah.jpg"
       alt="computer"
       className={resize > 500 ? "img-about" : "img-fluid"}
     />
