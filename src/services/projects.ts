@@ -23,7 +23,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/dabvgy03h/image/upload/v1695820175/samples/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-09-26_132907_un9dos.png",
   },
   {
-    title: "Stack Market App",
+    title: "Stock Market App",
     date: "October 2023",
     desc: "Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time and also allows the user to mark favorite currencies and track them on a dedicated page ",
     git: "https://github.com/lishayst100/coindom",
